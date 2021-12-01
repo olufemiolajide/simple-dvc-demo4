@@ -8,6 +8,10 @@ dirs = [
     "tests",
     "saved_models",
     "report",
+    os.path.join("prediction_service","model"),
+    os.path.join("webapp","static", "css"),
+    os.path.join("webapp","static", "sctipt"),
+    os.path.join("webapp","templates"),
     "src"
 ]
 
@@ -31,8 +35,16 @@ files = [
     os.path.join("tests", "conftest.py"),
     os.path.join("tests", "test_config.py"),
     os.path.join("tests", "__init__.py"),
+    os.path.join("prediction_service", "__init__.py"),
+    os.path.join("prediction_service", "prediction.py"),
+    os.path.join("webapp","static", "css", "main.css"),
+    os.path.join("webapp","static", "sctipt", "index.js"),
+    os.path.join("webapp","templates", "index.html"),
+    os.path.join("webapp","templates", "404.html"),
+    os.path.join("webapp","templates", "base.html"),
     "tox.ini",
     "setup.py",
+    "app.py"
     "README.md"
 ]
 
