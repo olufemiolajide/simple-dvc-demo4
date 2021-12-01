@@ -44,8 +44,15 @@ oneliner updates  for README.md
 ```bash
 git add . && git commit -m "update Readme.md"
 ```
+
+Open your GITHUB account
+
+Create a new repo named "simple-dvc-demo4"
+
+click on "create repository"
+
 ```bash
-git remote add origin https://github.com/c17hawke/simple-dvc-demo.git
+git remote add origin https://github.com/olufemiolajide/simple-dvc-demo4.git
 git branch -M main
 git push origin main
 ```
