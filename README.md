@@ -57,6 +57,13 @@ git branch -M main
 git push origin main
 ```
 
+- Develop params.yaml file
+
+```bash
+git add . && git commit -m "params added"
+git push origin
+```
+
 tox command -
 ```bash
 tox
