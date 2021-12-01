@@ -64,6 +64,15 @@ git add . && git commit -m "params added"
 git push origin
 ```
 
+- Develop get_data.py
+
+- Install some dependencies
+
+```bash
+pip install pandas
+pip install PyYAML
+```
+
 tox command -
 ```bash
 tox

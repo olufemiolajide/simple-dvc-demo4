@@ -21,7 +21,8 @@ files = [
     "params.yaml",
     ".gitignore",
     os.path.join("src","__init__.py"),
-    "README2.md"
+    os.path.join("src", "get_data.py"),
+    "README.md"
 ]
 
 for file_ in files:
