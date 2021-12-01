@@ -1,6 +1,5 @@
 import os
 
-
 dirs = [
     os.path.join("data", "raw"),
     os.path.join("data","processed"),
@@ -21,11 +20,13 @@ files = [
     "params.yaml",
     ".gitignore",
     os.path.join("src","__init__.py"),
-   # os.path.join("src", "get_data.py"),
-   # os.path.join("src", "load_data.py"),
+    os.path.join("src", "get_data.py"),
+    os.path.join("src", "load_data.py"),
+    os.path.join("src", "split_data.py"),
     "README.md"
 ]
 
 for file_ in files:
-    with open(file_, "w") as f:
+    mode = 'a' if os.path.exists(file_) else 'w'
+    with open(file_, mode) as f:
         pass
