@@ -97,6 +97,11 @@ git add . && git commit -m "add params.yaml"
 git push origin main
 ```
 
+# Add train_and_evalaute.py 
+
+
+
+# Add Report Folders - params.json and scores.json
 
 
 

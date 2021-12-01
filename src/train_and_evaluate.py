@@ -76,18 +76,3 @@ def train_and_evaluate(config_path):
         }
         json.dump(params, f, indent=4)
 #####################################################
-
-
-    os.makedirs(model_dir, exist_ok=True)
-    model_path = os.path.join(model_dir, "model.joblib")
-
-    joblib.dump(lr, model_path)
-
-
-
-if __name__=="__main__":
-    args = argparse.ArgumentParser()
-    args.add_argument("--config", default="params.yaml")
-    parsed_args = args.parse_args()
-    train_and_evaluate(config_path=parsed_args.config)
- 
