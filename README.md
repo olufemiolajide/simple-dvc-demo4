@@ -99,12 +99,22 @@ git push origin main
 
 # Add train_and_evalaute.py 
 
+# Add Report Folders - params.json and scores.json - if you havent added them before
 
+```bash
+dvc repro
 
-# Add Report Folders - params.json and scores.json
+dvc params diff
 
+dvc metrics show
 
+dvc metrics diff
 
+git add . && git commit -m "tracker added"
+git push origin main
+```
+
+# complete tox.ini
 
 tox command -
 ```bash
@@ -118,13 +128,25 @@ pytest command
 ```bash
 pytest -v
 ```
-
+# Develop setup.py file
 setup commands -
 ```bash
 pip install -e . 
+
+pip freeze  #to see what packages are installed in th elibrary
 ```
+
 
 build your own package commands- 
 ```bash
 python setup.py sdist bdist_wheel
 ```
+# you can delete the dist folder created because it is not required
+
+```bash
+tox
+```
+
+# Push to repo
+git add . && git commit -m "pytest and setup done"
+git push origin main

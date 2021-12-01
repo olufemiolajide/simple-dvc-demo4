@@ -5,6 +5,7 @@ dirs = [
     os.path.join("data","processed"),
     "notebooks",
     "data_given",
+    "tests",
     "saved_models",
     "report",
     "src"
@@ -27,6 +28,11 @@ files = [
     os.path.join("src", "train_and_evaluate.py"),
     os.path.join("report", "params.json"),
     os.path.join("report", "scores.json"),
+    os.path.join("tests", "conftest.py"),
+    os.path.join("tests", "test_config.py"),
+    os.path.join("tests", "__init__.py"),
+    "tox.ini",
+    "setup.py",
     "README.md"
 ]
 
