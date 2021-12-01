@@ -61,10 +61,10 @@ git push origin main
 
 ```bash
 git add . && git commit -m "params added"
-git push origin main
+git push origin
 ```
 
-# Develop get_data.py
+- Develop get_data.py
 
 - Install some dependencies
 
@@ -72,15 +72,6 @@ git push origin main
 pip install pandas
 pip install PyYAML
 ```
-
-# Test get_data.py
-
-```bash
-python src\get_data.py
-git add . && git commit -m "add get_data.py"
-git push origin main
-```
-
 
 tox command -
 ```bash
