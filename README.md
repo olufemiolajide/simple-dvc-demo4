@@ -81,6 +81,25 @@ git add . && git commit -m "add get_data.py"
 git push origin main
 ```
 
+# Develop load_data.py
+
+```bash
+python src\get_data.py
+git add . && git commit -m "add get_data.py"
+git push origin main
+```
+
+# Develop params.yaml
+```bash
+dvc repro
+
+git add . && git commit -m "add params.yaml"
+git push origin main
+```
+
+
+
+
 
 tox command -
 ```bash

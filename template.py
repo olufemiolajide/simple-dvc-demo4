@@ -21,7 +21,8 @@ files = [
     "params.yaml",
     ".gitignore",
     os.path.join("src","__init__.py"),
-    os.path.join("src", "get_data.py"),
+   # os.path.join("src", "get_data.py"),
+   # os.path.join("src", "load_data.py"),
     "README.md"
 ]
 
