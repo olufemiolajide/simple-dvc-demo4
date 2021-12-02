@@ -37,6 +37,7 @@ files = [
     os.path.join("tests", "__init__.py"),
     os.path.join("prediction_service", "__init__.py"),
     os.path.join("prediction_service", "prediction.py"),
+    os.path.join("prediction_service", "schema_in.json"),
     os.path.join("webapp","static", "css", "main.css"),
     os.path.join("webapp","static", "sctipt", "index.js"),
     os.path.join("webapp","templates", "index.html"),
@@ -44,7 +45,7 @@ files = [
     os.path.join("webapp","templates", "base.html"),
     "tox.ini",
     "setup.py",
-    "app.py"
+    "app.py",
     "README.md"
 ]
 

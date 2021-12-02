@@ -174,3 +174,10 @@ git add . && git commit -m "pytest example" && git push origin main
 Develop "webapp/static/css/main.css", "webapp/templates/404.html", "webapp/templates/base.html", and "webapp/templates/index.html"
 
 git add . && git commit -m "web structure added" && git push origin main
+
+# copy (manually) the file "saved_models/model.joblib" to the folder "prediction_service/model"
+
+# complete prediction_service/schema_in.json
+# complete "prediction_service/prediction.py"
+
+git add . && git commit -m "app created and tested" && git push origin main
