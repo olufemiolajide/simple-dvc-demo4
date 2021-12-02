@@ -170,3 +170,7 @@ def test_generic():
 ```
 
 git add . && git commit -m "pytest example" && git push origin main
+
+Develop "webapp/static/css/main.css", "webapp/templates/404.html", "webapp/templates/base.html", and "webapp/templates/index.html"
+
+git add . && git commit -m "web structure added" && git push origin main
