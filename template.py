@@ -48,6 +48,7 @@ files = [
     "tox.ini",
     "setup.py",
     "app.py",
+    "Procfile",
     "README.md"
 ]
 

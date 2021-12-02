@@ -184,5 +184,13 @@ git add . && git commit -m "app created and tested" && git push origin main
 
 # CI-CD using Github Actions
 complete ".github/workflows/ci-cd.yaml"
-
 git add . && git commit -m "github action workflow added" && git push origin main
+
+# Heroku Deployment
+
+Watch Day 3 - 2hrs 12mins
+
+complete "Procfile"
+
+git add . && git commit -m "Heroku workflow updated" && git push origin main
+
