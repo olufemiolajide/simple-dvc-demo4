@@ -12,6 +12,7 @@ dirs = [
     os.path.join("webapp","static", "css"),
     os.path.join("webapp","static", "sctipt"),
     os.path.join("webapp","templates"),
+    os.path.join(".github","workflows"),
     "src"
 ]
 
@@ -43,6 +44,7 @@ files = [
     os.path.join("webapp","templates", "index.html"),
     os.path.join("webapp","templates", "404.html"),
     os.path.join("webapp","templates", "base.html"),
+    os.path.join(".github","workflows", "ci-cd.yaml"),
     "tox.ini",
     "setup.py",
     "app.py",

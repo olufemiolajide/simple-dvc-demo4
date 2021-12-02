@@ -181,3 +181,8 @@ git add . && git commit -m "web structure added" && git push origin main
 # complete "prediction_service/prediction.py"
 
 git add . && git commit -m "app created and tested" && git push origin main
+
+# CI-CD using Github Actions
+complete ".github/workflows/ci-cd.yaml"
+
+git add . && git commit -m "github action workflow added" && git push origin main
